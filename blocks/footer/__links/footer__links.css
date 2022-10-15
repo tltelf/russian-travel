@@ -1,0 +1,21 @@
+.footer__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(min-content, max-content));
+  gap: 18px;
+}
+
+@media (max-width: 720px) {
+  .footer__links {
+    gap: calc(16px + (18 - 16) * ((100vw - 480px) / (720 - 480)));
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__links {
+    grid-template-columns: 1fr;
+    gap: calc(32px + (16 - 32) * ((100vw - 320px) / (480 - 320)));
+  }
+}

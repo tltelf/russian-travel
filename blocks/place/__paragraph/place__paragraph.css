@@ -1,0 +1,27 @@
+.place__paragraph {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  color: #fff;
+  margin: 0;
+  max-width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .place__paragraph {
+    font-size: calc(16px + (18 - 16) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .place__paragraph {
+    width: calc(288px + (442 - 288) * ((100vw - 320px) / (480 - 320)));
+    margin: 0 auto;
+  }
+}

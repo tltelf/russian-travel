@@ -1,0 +1,25 @@
+@import url('./__title/intro__title.css');
+@import url('./__text/intro__text.css');
+@import url('./__list/intro__list.css');
+@import url('./__list-cell/intro__list-cell.css');
+@import url('./__list-text/intro__list-text.css');
+
+.intro {
+  max-width: 690px;
+  margin-left: calc(48px + (100 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: calc(720px + (690 - 720) * ((100vw - 768px) / (1024 - 768)));
+    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+    margin-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+    margin: 0 auto calc(64px + (88 - 64) * ((100vw - 320px) / (768 - 320)));
+  }
+}

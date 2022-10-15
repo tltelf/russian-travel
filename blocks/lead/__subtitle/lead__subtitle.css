@@ -1,0 +1,25 @@
+.lead__subtitle {
+  max-width: 640px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #fff;
+  margin: 32px auto calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
+}
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (768 - 320)));
+    line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (768 - 320)));
+    margin-top: calc(16px + (32 - 16) * ((100vw - 320px) / (768 - 320)));
+    margin-bottom: calc(40px + (56 - 40) * ((100vw - 320px) / (768 - 320)));
+    max-width: calc(288px + (640 - 288) * ((100vw - 320px) / (768 - 320)));
+  }
+}

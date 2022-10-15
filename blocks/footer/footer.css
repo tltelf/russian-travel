@@ -1,0 +1,33 @@
+@import url('../footer/__links/footer__links.css');
+@import url('../footer/__link/footer__link.css');
+@import url('../footer/__copyright/footer__copyright.css');
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  justify-content: space-between;
+  max-width: calc(928px + (1184 - 928) * ((100vw - 1024px) / (1280 - 1024)));
+  margin: 0 auto 24px;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+
+@media (max-width: 720px) {
+  .footer {
+    max-width: calc(442px + (681 - 442) * ((100vw - 480px) / (720 - 480)));
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    max-width: calc(186px + (442 - 186) * ((100vw - 320px) / (480 - 320)));
+    margin-left: calc(16px + (19 - 16) * ((100vw - 320px) / (480 - 320)));
+  }
+}

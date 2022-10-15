@@ -1,6 +1,3 @@
-@import url('../cover/__title/cover__title.css');
-@import url('../cover/__subtitle/cover__subtitle.css');
-
 .cover {
   display: grid;
   align-content: center;

@@ -3,6 +3,12 @@
   margin: 0 auto;
 }
 
+@media (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+  }
+}
+
 @media (max-width: 1024px) {
   .lead {
     max-width: calc(768px + (928 - 768) * ((100vw - 768px) / (1024 - 768)));

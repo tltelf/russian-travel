@@ -1,14 +1,19 @@
 .content {
   display: grid;
-  gap: 92px;
+  gap: 88px;
   max-width: calc(1024px + (1184 - 1024) * ((100vw - 1024px) / (1280 - 1024)));
   margin: 0 auto 92px;
+}
+
+@media (min-width: 1280px) {
+  .content {
+    max-width: 1184px;
+  }
 }
 
 @media (max-width: 1024px) {
   .content {
     max-width: calc(768px + (1024 - 768) * ((100vw - 768px) / (1024 - 768)));
-    gap: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
     margin-bottom: calc(88px + (92 - 88) * ((100vw - 768px) / (1024 - 768)));
   }
 }

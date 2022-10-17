@@ -8,12 +8,14 @@
 @media (max-width: 1024px) {
   .places {
     max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));
+    gap: calc(73px + (80 - 73) * ((100vw - 768px) / (1024 - 768)));
   }
 }
 
 @media (max-width: 768px) {
   .places {
     max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (768 - 320)));
+    gap: calc(50px + (73 - 50) * ((100vw - 320px) / (768 - 320)));
   }
 }
 

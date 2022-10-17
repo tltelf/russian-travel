@@ -5,6 +5,12 @@
   column-gap: calc(32px + (40 - 32) * ((100vw - 1024px) / (1280 - 1024)));
 }
 
+@media (min-width: 1280px) {
+  .place {
+    column-gap: 40px;
+  }
+}
+
 @media (max-width: 1024px) {
   .place {
     grid-template-columns: minmax(340px, 440px) minmax(352px, 456px);

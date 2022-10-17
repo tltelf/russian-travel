@@ -5,6 +5,13 @@
   justify-content: space-between;
 }
 
+@media (min-width: 1280px) {
+  .header {
+    max-width: 1184px;
+    margin-bottom: 56px;
+  }
+}
+
 @media (max-width: 1024px) {
   .header {
     max-width: calc(720px + (928 - 720) * ((100vw - 768px) / (1024 - 768)));

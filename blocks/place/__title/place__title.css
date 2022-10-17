@@ -19,13 +19,13 @@
   .place__title {
     font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (768 - 320)));
     line-height: calc(35px + (46 - 35) * ((100vw - 320px) / (768 - 320)));
+    max-width: 330px;
   }
 }
 
 @media (max-width: 480px) {
   .place__title {
-    grid-row: 1;
-    grid-column: 1;
+    max-width: 442px;
     width: calc(288px + (442 - 288) * ((100vw - 320px) / (480 - 320)));
     margin: 0 auto;
   }

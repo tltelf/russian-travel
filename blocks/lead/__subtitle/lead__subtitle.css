@@ -8,6 +8,12 @@
   margin: 32px auto calc(56px + (64 - 56) * ((100vw - 1024px) / (1280 - 1024)));
 }
 
+@media (min-width: 1280px) {
+  .lead__subtitle {
+    margin-bottom: 64px;
+  }
+}
+
 @media (max-width: 1024px) {
   .lead__subtitle {
     margin-bottom: 56px;

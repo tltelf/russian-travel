@@ -20,7 +20,7 @@
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
 @import url('../blocks/intro/__list-text/intro__list-text.css');
-@import url('../blocks/intro/__list-text/_weight-normal/intro__list-text_weight-normal.css');
+@import url('../blocks/intro/__weight-normal/intro__weight-normal.css');
 @import url('../blocks/photo-grid/photo-grid.css');
 @import url('../blocks/photo-grid/__items/photo-grid__items.css');
 @import url('../blocks/photo-grid/__item/photo-grid__item.css');
